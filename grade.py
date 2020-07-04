@@ -9,7 +9,11 @@
 
 
 score = input("Enter Score: ")
-s = float(score)    
+try:
+    s = float(score)
+except:
+    print("Please give numeric value")
+    quit()
 
 if s>=0.9 and s<=1 : 
     print("A")
