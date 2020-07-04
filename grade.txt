@@ -1,0 +1,1 @@
+score = input("Enter Score: ")
